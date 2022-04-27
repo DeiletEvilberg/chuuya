@@ -1,0 +1,124 @@
+body {
+    background-color: #0d0d0d;
+    background-image: url(https://i.postimg.cc/JhWjC7b0/Greypath.png)
+}
+
+* {
+    transition: all 1s ease;
+    cursor: url(https://i.postimg.cc/C1wtkYhP/kuwo.png), auto;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-family: calibri;
+    font-size: 8pt;
+    /* -webkit-user-select: none; */
+}
+/*by BraveryMind*/
+
+#fullback {
+    margin-left: 105px;
+    margin-top: -10px;
+    position: fixed;
+    width: 245px;
+    height: 150%;
+    padding: 20px;
+    background-color: #161616;
+    background: url('https://i.postimg.cc/sfKbf6bY/twilight-bg.png');
+    opacity: 0.7;
+}
+
+#bloggerback {
+    margin-left: 20px;
+    margin-top: 70px;
+    position: fixed;
+    width: auto;
+    height: auto;
+}
+
+#photobar1 {
+    text-align: center;
+    margin-top: 0px;
+    width: 200px;
+}
+
+#photobar1 img {
+    width: 200px;
+    padding: 2px;
+    border-radius: 0px 0px 0px 0px;
+    border: 1px solid #d4d4d4;
+}
+
+#blogger {
+    margin-top: 15px;
+    padding-bottom: 2px;
+    border-bottom: 1px dotted #d4d4d4;
+}
+
+#bloggertitle {
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    float: left;
+    text-align: left;
+    color: #bd340e;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#bloggerdeets {
+    font-size: 10px;
+    width: 206px;
+    margin-top: 10px;
+    line-height: 16px;
+    text-align: center;
+}
+
+#bloggerdeets a {
+    text-decoration: none;
+    color: #767676;
+    padding-bottom: 1px;
+    word-spacing: 5px;
+}
+
+#bloggerdeets a:hover {
+    color: #bd340e;
+}
+
+#bloggerdeets small,
+sub {
+    font-size: 10px;
+}
+
+#bloggerdeets b,
+strong {
+    color: #bd340e;
+    text-transform: uppercase;
+}
+
+.container {
+    margin-top: 24px;
+    position: relative;
+    width: 410px;
+    left: 578px;
+    background: #161616;
+    padding: 10px;
+    border: 1px solid #fff;
+    opacity: 0.6;
+}
+
+.image {
+    display: block;
+    width: 200px;
+    height: auto;
+}
+
+.container :hover {
+    opacity: 0.7;
+}
+
+nowaymenu {
+    position: absolute
+}
+
+#nowaymenu {
+    bottom: 0;
+}
